@@ -1,0 +1,592 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18855 ]
+[d frameptr 6 ]
+"106 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\mcc_generated_files/adcc.c
+[e E11724 . `uc
+POT 4
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"113 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\main.c
+[e E11726 . `uc
+POT 4
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"84 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"147
+[v _Reset Reset `(v  1 e 1 0 ]
+"159
+[v _OpenShow OpenShow `(v  1 e 1 0 ]
+"169
+[v _LockShow LockShow `(v  1 e 1 0 ]
+"179
+[v _DenyShow DenyShow `(v  1 e 1 0 ]
+"189
+[v _NewShow NewShow `(v  1 e 1 0 ]
+"199
+[v _digitShow digitShow `(v  1 e 1 0 ]
+"209
+[v _SetShow SetShow `(v  1 e 1 0 ]
+"220
+[v _RunningADCC RunningADCC `(v  1 e 1 0 ]
+"265
+[v _RunningNew RunningNew `(v  1 e 1 0 ]
+"314
+[v _DisplayOpen DisplayOpen `(v  1 e 1 0 ]
+"340
+[v _DisplayLock DisplayLock `(v  1 e 1 0 ]
+"370
+[v _DisplayDeny DisplayDeny `(v  1 e 1 0 ]
+"401
+[v _Scrollnew Scrollnew `(v  1 e 1 0 ]
+"449
+[v _ScrollSet ScrollSet `(v  1 e 1 0 ]
+"63 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"130
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"50 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+[s S392 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"401 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f18855.h
+[u S401 . 1 `S392 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES401  1 e 1 @12 ]
+"591
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"653
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"715
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"777
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+[s S447 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"794
+[u S456 . 1 `S447 1 . 1 0 ]
+[v _LATAbits LATAbits `VES456  1 e 1 @22 ]
+"839
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+[s S347 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"856
+[u S356 . 1 `S347 1 . 1 0 ]
+[v _LATBbits LATBbits `VES356  1 e 1 @23 ]
+"901
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+[s S326 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"918
+[u S335 . 1 `S326 1 . 1 0 ]
+[v _LATCbits LATCbits `VES335  1 e 1 @24 ]
+"1538
+[v _ADRESL ADRESL `VEuc  1 e 1 @140 ]
+"1558
+[v _ADRESH ADRESH `VEuc  1 e 1 @141 ]
+"1572
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @142 ]
+"1642
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @143 ]
+"1719
+[v _ADACCL ADACCL `VEuc  1 e 1 @144 ]
+"1789
+[v _ADACCH ADACCH `VEuc  1 e 1 @145 ]
+"1859
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @147 ]
+[s S46 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"1895
+[s S54 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFRM 1 0 :2:2 
+]
+[s S58 . 1 `uc 1 nDONE 1 0 :1:0 
+]
+[s S60 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[s S65 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFRM0 1 0 :1:2 
+`uc 1 ADFRM1 1 0 :1:3 
+]
+[u S70 . 1 `S46 1 . 1 0 `S54 1 . 1 0 `S58 1 . 1 0 `S60 1 . 1 0 `S65 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES70  1 e 1 @147 ]
+"1970
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @148 ]
+[s S201 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"1984
+[u S207 . 1 `S201 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES207  1 e 1 @148 ]
+"2009
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @149 ]
+[s S137 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"2031
+[s S142 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+]
+[u S150 . 1 `S137 1 . 1 0 `S142 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES150  1 e 1 @149 ]
+"2086
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @150 ]
+[s S107 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+"2107
+[s S115 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[u S119 . 1 `S107 1 . 1 0 `S115 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES119  1 e 1 @150 ]
+"2157
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @151 ]
+[s S169 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 ADMACT 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"2177
+[s S176 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+]
+[u S180 . 1 `S169 1 . 1 0 `S176 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES180  1 e 1 @151 ]
+"2227
+[v _ADCLK ADCLK `VEuc  1 e 1 @152 ]
+"2285
+[v _ADACT ADACT `VEuc  1 e 1 @153 ]
+"2337
+[v _ADREF ADREF `VEuc  1 e 1 @154 ]
+"2378
+[v _ADCAP ADCAP `VEuc  1 e 1 @155 ]
+"2430
+[v _ADPRE ADPRE `VEuc  1 e 1 @156 ]
+"2500
+[v _ADACQ ADACQ `VEuc  1 e 1 @157 ]
+"2570
+[v _ADPCH ADPCH `VEuc  1 e 1 @158 ]
+"2628
+[v _ADCNT ADCNT `VEuc  1 e 1 @268 ]
+"2698
+[v _ADRPT ADRPT `VEuc  1 e 1 @269 ]
+"2775
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @270 ]
+"2845
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @271 ]
+"2922
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @272 ]
+"2992
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @273 ]
+"3069
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @274 ]
+"3139
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @275 ]
+"3216
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @276 ]
+"3286
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @277 ]
+"3363
+[v _ADERRL ADERRL `VEuc  1 e 1 @278 ]
+"3433
+[v _ADERRH ADERRH `VEuc  1 e 1 @279 ]
+"21989
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"22046
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"22117
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"22162
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"22218
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"22269
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"23340
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23480
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"23577
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"23628
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"23686
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"33007
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"33069
+[v _WPUA WPUA `VEuc  1 e 1 @3897 ]
+"33131
+[v _ODCONA ODCONA `VEuc  1 e 1 @3898 ]
+"33193
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3899 ]
+"33627
+[v _ANSELB ANSELB `VEuc  1 e 1 @3907 ]
+"33689
+[v _WPUB WPUB `VEuc  1 e 1 @3908 ]
+"33751
+[v _ODCONB ODCONB `VEuc  1 e 1 @3909 ]
+"33813
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3910 ]
+"34247
+[v _ANSELC ANSELC `VEuc  1 e 1 @3918 ]
+"34309
+[v _WPUC WPUC `VEuc  1 e 1 @3919 ]
+"34371
+[v _ODCONC ODCONC `VEuc  1 e 1 @3920 ]
+"34433
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3921 ]
+"34867
+[v _WPUE WPUE `VEuc  1 e 1 @3941 ]
+"4 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\main.c
+[v _matrix matrix `[70]uc  1 e 70 0 ]
+"17
+[v _Lock Lock `[28]uc  1 e 28 0 ]
+"23
+[v _Open Open `[28]uc  1 e 28 0 ]
+"29
+[v _Deny Deny `[28]uc  1 e 28 0 ]
+"35
+[v _New New `[105]uc  1 e 105 @9095 ]
+"52
+[v _Set Set `[105]uc  1 e 105 @8990 ]
+"84
+[v _main main `(v  1 e 1 0 ]
+{
+"100
+[v main@value value `i  1 a 2 47 ]
+"90
+[v main@combo4 combo4 `i  1 a 2 43 ]
+"89
+[v main@combo3 combo3 `i  1 a 2 41 ]
+"88
+[v main@combo2 combo2 `i  1 a 2 39 ]
+"87
+[v main@combo1 combo1 `i  1 a 2 37 ]
+"94
+[v main@num4 num4 `i  1 a 2 32 ]
+"93
+[v main@num3 num3 `i  1 a 2 30 ]
+"92
+[v main@num2 num2 `i  1 a 2 28 ]
+"91
+[v main@num1 num1 `i  1 a 2 26 ]
+"99
+[v main@tens tens `uc  1 a 1 46 ]
+"98
+[v main@digit digit `uc  1 a 1 45 ]
+"102
+[v main@running running `a  1 a 1 34 ]
+"103
+[v main@working working `a  1 a 1 25 ]
+"145
+} 0
+"401
+[v _Scrollnew Scrollnew `(v  1 e 1 0 ]
+{
+"402
+[v Scrollnew@scrl_len scrl_len `i  1 a 2 4 ]
+[v Scrollnew@scrl_speed scrl_speed `i  1 a 2 2 ]
+"403
+[v Scrollnew@count count `i  1 a 2 0 ]
+"448
+} 0
+"189
+[v _NewShow NewShow `(v  1 e 1 0 ]
+{
+[v NewShow@value value `uc  1 a 1 wreg ]
+"190
+[v NewShow@p p `*.39uc  1 a 2 11 ]
+"189
+[v NewShow@value value `uc  1 a 1 wreg ]
+[v NewShow@value value `uc  1 a 1 10 ]
+"198
+} 0
+"50 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"55 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"106
+} 0
+"58 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"63 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"104
+} 0
+"265 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\main.c
+[v _RunningNew RunningNew `(v  1 e 1 0 ]
+{
+[v RunningNew@digit digit `uc  1 a 1 wreg ]
+"266
+[v RunningNew@count count `i  1 a 2 16 ]
+"265
+[v RunningNew@digit digit `uc  1 a 1 wreg ]
+[v RunningNew@tens tens `uc  1 p 1 6 ]
+[v RunningNew@num1 num1 `*.4i  1 p 1 7 ]
+[v RunningNew@num2 num2 `*.4i  1 p 1 8 ]
+[v RunningNew@num3 num3 `*.4i  1 p 1 9 ]
+[v RunningNew@num4 num4 `*.4i  1 p 1 10 ]
+[v RunningNew@value value `*.39i  1 p 2 11 ]
+[v RunningNew@working working `a  1 p 1 13 ]
+"312
+} 0
+"449
+[v _ScrollSet ScrollSet `(v  1 e 1 0 ]
+{
+"450
+[v ScrollSet@scrl_len scrl_len `i  1 a 2 4 ]
+[v ScrollSet@scrl_speed scrl_speed `i  1 a 2 2 ]
+"478
+[v ScrollSet@count count `i  1 a 2 0 ]
+"496
+} 0
+"209
+[v _SetShow SetShow `(v  1 e 1 0 ]
+{
+[v SetShow@value value `uc  1 a 1 wreg ]
+"210
+[v SetShow@p p `*.39uc  1 a 2 11 ]
+"209
+[v SetShow@value value `uc  1 a 1 wreg ]
+[v SetShow@value value `uc  1 a 1 10 ]
+"218
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"147 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\main.c
+[v _Reset Reset `(v  1 e 1 0 ]
+{
+"156
+} 0
+"340
+[v _DisplayLock DisplayLock `(v  1 e 1 0 ]
+{
+"341
+[v DisplayLock@count count `i  1 a 2 9 ]
+"369
+} 0
+"169
+[v _LockShow LockShow `(v  1 e 1 0 ]
+{
+[v LockShow@value value `uc  1 a 1 wreg ]
+"170
+[v LockShow@p p `*.4uc  1 a 1 7 ]
+"169
+[v LockShow@value value `uc  1 a 1 wreg ]
+[v LockShow@value value `uc  1 a 1 6 ]
+"178
+} 0
+"220
+[v _RunningADCC RunningADCC `(v  1 e 1 0 ]
+{
+[v RunningADCC@digit digit `uc  1 a 1 wreg ]
+[v RunningADCC@digit digit `uc  1 a 1 wreg ]
+[v RunningADCC@tens tens `uc  1 p 1 0 ]
+[v RunningADCC@combo1 combo1 `*.4i  1 p 1 1 ]
+[v RunningADCC@combo2 combo2 `*.4i  1 p 1 2 ]
+[v RunningADCC@combo3 combo3 `*.4i  1 p 1 3 ]
+[v RunningADCC@combo4 combo4 `*.4i  1 p 1 4 ]
+[v RunningADCC@count count `i  1 p 2 5 ]
+[v RunningADCC@value value `i  1 p 2 7 ]
+[v RunningADCC@running running `a  1 p 1 9 ]
+"263
+} 0
+"199
+[v _digitShow digitShow `(v  1 e 1 0 ]
+{
+[v digitShow@value value `uc  1 a 1 wreg ]
+"200
+[v digitShow@p p `*.5uc  1 a 1 7 ]
+"199
+[v digitShow@value value `uc  1 a 1 wreg ]
+[v digitShow@value value `uc  1 a 1 6 ]
+"208
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 9 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 4 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 6 ]
+"25
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 11 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 4 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 6 ]
+"30
+} 0
+"130 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\mcc_generated_files/adcc.c
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E11724  1 a 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E11724  1 a 1 wreg ]
+"133
+[v ADCC_GetSingleConversion@channel channel `E11724  1 a 1 3 ]
+"155
+} 0
+"314 C:\Users\user\Documents\Dans school work\FAU\Spring 2019\Intro. MicroProcessors\Design Project\Design_Project_V3.X\main.c
+[v _DisplayOpen DisplayOpen `(v  1 e 1 0 ]
+{
+"339
+} 0
+"159
+[v _OpenShow OpenShow `(v  1 e 1 0 ]
+{
+[v OpenShow@value value `uc  1 a 1 wreg ]
+"160
+[v OpenShow@p p `*.4uc  1 a 1 7 ]
+"159
+[v OpenShow@value value `uc  1 a 1 wreg ]
+[v OpenShow@value value `uc  1 a 1 6 ]
+"168
+} 0
+"370
+[v _DisplayDeny DisplayDeny `(v  1 e 1 0 ]
+{
+"371
+[v DisplayDeny@count count `i  1 a 2 9 ]
+"399
+} 0
+"179
+[v _DenyShow DenyShow `(v  1 e 1 0 ]
+{
+[v DenyShow@value value `uc  1 a 1 wreg ]
+"180
+[v DenyShow@p p `*.4uc  1 a 1 7 ]
+"179
+[v DenyShow@value value `uc  1 a 1 wreg ]
+[v DenyShow@value value `uc  1 a 1 6 ]
+"188
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
